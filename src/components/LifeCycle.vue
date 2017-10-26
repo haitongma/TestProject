@@ -12,7 +12,7 @@
         },
       methods:{
         change(){
-          console.log("进入函数")
+          console.log("进入函数了")
           console.log(this)
         }
       },
