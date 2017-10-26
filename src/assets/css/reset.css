@@ -1,0 +1,163 @@
+@charset "UTF-8";
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  color: #000;
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  tap-highlight-color: rgba(0, 0, 0, 0.05);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  min-width: 320px;
+  margin: 0 auto;
+  background: rgb(245,244,249);
+  font-weight: normal;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, em {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+input, select, textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+i, em, address {
+  font-style: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+button{
+  border:none
+}
+iframe {
+  line-height: 0;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+body, form, ul, ol, li, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, button, section, div {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html, body {
+    font-size: 33.75px;
+  }
+}
+
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html, body {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html, body {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+  html, body {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html, body {
+    font-size: 22.5px;
+  }
+}
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html, body {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px), only screen and (min-device-width: 600px) {
+  html, body {
+    font-size: 18.75px;
+  }
+}
+
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html, body {
+    font-size: 16.875px;
+  }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html, body {
+    font-size: 12.9375px;
+  }
+}
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html, body {
+    font-size: 12.5px;
+  }
+}
+
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html, body {
+    font-size: 11.71875px;
+  }
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html, body {
+    font-size: 11.25px;
+  }
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html, body {
+    font-size: 10px;
+  }
+}
+
+/*注：设备宽/320*10=相应字体的字号(px) -by haitong*/
