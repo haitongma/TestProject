@@ -2,12 +2,12 @@
     <div class="wrap">
       <img src="../assets/images/1.jpg">
       <p class="intro">
-        <span @click="package">贝塔技术交流分享会</span><br/>
+        <span @click="package">技术交流分享会</span><br/>
         <span style="margin-left: 160px;">第一期</span>
       </p>
       <p class="intro2">
         <span @click="link">《Vue 过渡&动画》</span><br/>
-        <span style="margin-left: 160px;">——欧文</span>
+        <span style="margin-left: 160px;">——Aimee</span>
       </p>
       <transition name="fade">
       <div class="redPack" v-if="showPage">
