@@ -1,6 +1,7 @@
 <template>
     <div>
       <button v-on:click="change">change</button>
+      <div>生命周期</div>
     </div>
 </template>
 <script>
