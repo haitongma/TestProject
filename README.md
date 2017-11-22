@@ -1,6 +1,6 @@
 # aimee-vue
 
-> 覆盖vue 过渡&动画 中的几个demo，按照自己的理解，分析官网案例，并作出展示。
+> Is a notebook。
 
 ## Build Setup
 
@@ -15,25 +15,19 @@
 
 ## 章节介绍
 
-#### Transition1：单元素的过渡
+#### LifeCycle：vue生命周期
 
-#### Transition2：css过渡的类名，共6种
+#### VueTransition：vue过渡&动画
 
-#### Transition3：css动画
+#### RequireJs：require.js
 
-#### Transition4：自定义过渡的类名
+#### Ssh：ssh
 
-#### Transition5：javascript钩子
+#### Charles：charles
 
-#### Transition6：初始渲染的过渡
+#### Grunt：grunt
 
-#### Transition7：多个相同标签名的元素的过渡
-
-#### Transition8：多个组件的过渡
-
-#### Transition9：列表的过渡
-
-#### Transition10：列表的交错过渡
+#### Mustache：mustache
 
 ## 序言
 

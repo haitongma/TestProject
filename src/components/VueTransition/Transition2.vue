@@ -7,7 +7,7 @@
     <transition name="slide-fade">
       <p v-if="show">hello</p>
     </transition>
-    <img src="../assets/images/classNameIntro.png" class="imgStyle">
+    <img src="../../assets/images/classNameIntro.png" class="imgStyle">
   </div>
 </template>
 
