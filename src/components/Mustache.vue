@@ -63,7 +63,10 @@
     Output:
 
     <b>Hi Tater.</b>
-    6.如果循环的数组为[],或者
+    6.如果循环的数组为[],则不显示
+    7.{{!ignore me}}代表注释{{!}}可以放在标签内
+    8.Partials：{{>next-more}}待学习
+    9.custom <% %>待学习
   </div>
 </template>
 <script>
