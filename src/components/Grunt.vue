@@ -114,6 +114,31 @@
     },
 
     15.通配符设置规则：foo/*.js将匹配位于foo/目录下的所有的.js结尾的文件；而foo/**/*js将匹配foo/目录以及其子目录中所有以.js结尾的文件。
+    16.open任务可以设置默认打开的网址，但这项任务要放在connect和watch之间grunt.registerTask('server', 'Run server', ['connect','open','watch']);Run server是描述
+
+    connect: {
+    server: {
+    options: {
+    port: 3000,
+    base: ''
+    }
+    }
+    },
+
+    open: {
+    kitchen: {
+    path: 'http://0.0.0.0:3000/view/index.html'
+    }
+    },
+
+    // 监听资源改动自动执行任务
+    watch: {
+    usecase: {
+    files: ['<%= meta.srcPath %>**/*.*'],
+    // tasks: ['sass']
+    tasks: ['usecase']
+    }
+    },
   </div>
 </template>
 <script>

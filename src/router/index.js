@@ -12,6 +12,8 @@ import Transition7 from '../components/VueTransition/Transition7'
 import Transition8 from '../components/VueTransition/Transition8'
 import Transition9 from '../components/VueTransition/Transition9'
 import Transition10 from '../components/VueTransition/Transition10'
+import Marquee from '../components/Marquee'
+
 
 const routes=[
   { path: '/', name: 'MyShare', component: MyShare},
@@ -26,6 +28,8 @@ const routes=[
   { path: '/transition8', name: 'Transition8', component: Transition8},
   { path: '/transition9', name: 'Transition9', component: Transition9},
   { path: '/transition10', name: 'Transition10', component: Transition10},
+  { path: '/marquee', name: 'Marquee', component: Marquee},
+
 
 ]
 Vue.use(Router)
