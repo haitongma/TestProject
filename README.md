@@ -29,6 +29,8 @@
 
 #### Mustache：mustache
 
+#### Marquee：跑马灯效果
+
 ## 序言
 
 ##### 如果你来访我，我不在
