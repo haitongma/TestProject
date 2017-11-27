@@ -13,6 +13,7 @@ import Transition8 from '../components/VueTransition/Transition8'
 import Transition9 from '../components/VueTransition/Transition9'
 import Transition10 from '../components/VueTransition/Transition10'
 import Marquee from '../components/Marquee'
+import Hash from '../components/Hash'
 
 
 const routes=[
@@ -29,6 +30,7 @@ const routes=[
   { path: '/transition9', name: 'Transition9', component: Transition9},
   { path: '/transition10', name: 'Transition10', component: Transition10},
   { path: '/marquee', name: 'Marquee', component: Marquee},
+  { path: '/hash', name: 'Hash', component: Hash},
 
 
 ]
