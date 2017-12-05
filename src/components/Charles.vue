@@ -18,6 +18,8 @@
     Advanced」菜单项，接着我们就可以在弹出的对话框中，选择打压的并发线程数以及打压次数，确定之后，即可开始打压。一些写得很弱的投票网站，也可以用这个办法来快速投票。
 
     6,Charles 的 Map 功能分 Map Remote 和 Map Local 两种，顾名思义，Map Remote 是将指定的网络请求重定向到另一个网址请求地址，Map Local 是将指定的网络请求重定向到本地文件。
+
+    7,当本地的js文件有crossOrigin="anonymous"支持跨域的属性时，这个js是没法直接代理的，解决方法是，在charles里面配置一下
   </div>
 </template>
 <script>
