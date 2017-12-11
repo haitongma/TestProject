@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--方式1-->
     <marquee  scrollamount="2" direction="left" Behaviour="Scroll">
       <div>
         <p>
@@ -20,6 +21,14 @@
     <!--Height：滚动文本框的高度，输入一个数值后从后面的单选框选择in Pixels(按像素)或是in Percent(按百分比)。-->
     <!--loop：滚动次数，默认为infinite（无限）-->
     <!--hspace、vspace：前后、上下的空行。-->
+    <!--方式2-->
+    <div class="marquee">
+      <ul>
+        <li>1北京市爽丹酒店库存截至现在剩余<span></span>62%</li>
+        <li>2北京市爽丹酒店库存截至现在剩余<span></span>62%</li>
+        <li>3北京市爽丹酒店库存截至现在剩余<span></span>62%</li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
@@ -33,5 +42,21 @@
   }
 </script>
 <style scoped>
-
+  /*方式2样式*/
+  .marquee ul {
+    display: block;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation: marquee 20s linear infinite;
+    animation: marquee 20s linear infinite;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1002px); // 每行长200，4s
+    }
+  }
 </style>
