@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--方式1-->
-    <marquee  scrollamount="2" direction="left" Behaviour="Scroll">
+    <marquee scrollamount="2" direction="left" Behaviour="Scroll">
       <div>
         <p>
           <span>1北京市爽丹酒店库存截至现在剩余<span></span>62%</span>
@@ -9,7 +9,7 @@
           <span>3北京市爽丹酒店库存截至现在剩余<span></span>62%</span>
         </p>
       </div>
-    </marquee >
+    </marquee>
     <!--marquee 参数：兼容性不是很好，现在比较推荐使用js写跑马灯效果-->
     <!--BGColor：滚动文本框的背景颜色。-->
     <!--Direction：滚动方向设置，可选择Left（从右到左）、Rightup（从下到上）和down（从上到下）-->
@@ -53,10 +53,10 @@
   }
   @keyframes marquee {
     0% {
-      transform: translateX(0);
+      transform: translate3d(0,0,0);
     }
     100% {
-      transform: translateX(-1002px); // 每行长200，4s
+      transform: translate3d(-1002px,0,0); // 每行长200，4s
     }
   }
 </style>
