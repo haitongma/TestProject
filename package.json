@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "mui": "0.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -54,7 +55,7 @@
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "^4.1.0",
-    "underscore":"^1.8.3"
+    "underscore": "^1.8.3"
   },
   "engines": {
     "node": ">= 4.0.0",

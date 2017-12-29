@@ -14,6 +14,7 @@ import Transition9 from '../components/VueTransition/Transition9'
 import Transition10 from '../components/VueTransition/Transition10'
 import Marquee from '../components/Marquee'
 import Hash from '../components/Hash'
+import ZhaoyuOrder from '../components/ZhaoyuOrder.vue'
 
 
 const routes=[
@@ -31,7 +32,7 @@ const routes=[
   { path: '/transition10', name: 'Transition10', component: Transition10},
   { path: '/marquee', name: 'Marquee', component: Marquee},
   { path: '/hash', name: 'Hash', component: Hash},
-
+  { path: '/zhaoyu', name: 'ZhaoyuOrder', component: ZhaoyuOrder}
 
 ]
 Vue.use(Router)
