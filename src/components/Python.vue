@@ -204,6 +204,22 @@
             }
         },
         components: {
+        },
+        methods(){//关于环境
+          首先 在生产环境和开发环境都安装pip(python界两大包管理工具：easy_install.py和pip)
+          安装pip步骤：
+          1,执行curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+          2,进入存放python的文件夹目录里,执行sudo python get-pip.py,之后就Successfully installed pip-9.0.1 wheel-0.30.0
+
+          在开发环境中 所有的依赖都用sudo pip install xx来安装
+
+          然后在开发环境中 pip freeze > requirement.txt(安装这个项目的所有依赖导出到requirement.txt中)
+
+          上传到生产环境之后，pip install -r requirement.txt应该就可以了
+
+          但是也要检查编辑器设置里面的model有没有引入，引入完全才不会报错
+
+          多人协作开发也可以参照这个 只需要共同维护requirement.txt即可
         }
     }
 </script>
