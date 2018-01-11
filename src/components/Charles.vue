@@ -19,7 +19,11 @@
 
     6,Charles 的 Map 功能分 Map Remote 和 Map Local 两种，顾名思义，Map Remote 是将指定的网络请求重定向到另一个网址请求地址，Map Local 是将指定的网络请求重定向到本地文件。
 
-    7,当本地的js文件有crossOrigin="anonymous"支持跨域的属性时，这个js是没法直接代理的，解决方法是，在charles里面配置一下
+    7,当本s地的js文件有crossOrigin="anonymous"支持跨域的属性时，这个js是没法直接代理的，解决方法是，在charles里面配置一下Rewrite<img src="../assets/images/charles-rewrite.jpeg">
+
+    8,若要编辑请求的参数来进行调试，按住当前请求，右键compose(组成)，进行编辑，之后Execute(执行)，接口会再请求一次，届时可以查看修改参数后的请求结果
+
+    9,若要修改请求的response，右键请求选择breakpoint打点，之后再次请求的时候就会弹出编辑的提示框，Execute，修改后，Execute可以看到请求的response变成了修改后的，这是一种方法。还有一种简单方法：右键请求选择save response保存到本地(当接口带有版本号时，正则匹配一下)，再local map把地址映射到本地，刷新后就可以看到效果了，再本地随便增删改查都可以显示出来了。
   </div>
 </template>
 <script>
