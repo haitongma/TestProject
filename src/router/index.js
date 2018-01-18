@@ -15,7 +15,7 @@ import Transition10 from '../components/VueTransition/Transition10'
 import Marquee from '../components/Marquee'
 import Hash from '../components/Hash'
 import ZhaoyuOrder from '../components/ZhaoyuOrder.vue'
-
+// import elongMapDemo from '../components/elongDemo/mapDemo.html'
 
 const routes=[
   { path: '/', name: 'MyShare', component: MyShare},
