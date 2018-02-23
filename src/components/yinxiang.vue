@@ -9,6 +9,7 @@
         Number( "5.6.7 ") NaN
         Number(new Object()) NaN
         Number(100) 100
+
     </div>
 </template>
 <script>
